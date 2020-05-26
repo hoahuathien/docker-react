@@ -6,4 +6,4 @@ before install:
     - docker build -t hoaht/docker-react -f Dockerfile.dev . 
 
 script:
-    - docker run hoaht/docer-react npm run test -- --coverage
+    - docker run hoaht/docker-react npm run test -- --coverage
